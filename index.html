@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to Script -->
+    <script src="prueba.js" defer></script>
+    <!--<script src="./main.js" defer></script>-->
+    <script
+      src="https://kit.fontawesome.com/3fc39534b6.js"
+      crossorigin="anonymous" defer
+    ></script>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <header><strong>#todo</strong></header>
+    <div id="container">
+      <div class="subContainer">
+      <nav>
+            <ul id="ul">
+              <li><button type="button" id="all" class="pintarBoton">All</button></li>
+              <li><button type="button" id="active" >Active</button></li>
+              <li><button type="button" id="completed">Completed</button></li>
+            </ul>
+      </nav>
+      <form id="form">
+        <div id="inputBoton">
+        <div id="input">
+          <input autofocus type="text" placeholder="add details" class="textHom" id="addDetails" autocomplete="off"/>
+        </div>
+        <div id="divBoton">
+          <button type="submit" class="textHom1" id="boton">Add</button>
+          
+        </div>
+      </form>
+      </div>
+      <div id="listaDeTareas">
+        <ul id="ulList">
+          
+          
+        </ul>
+        <div class="divBoton">
+          <button class="btn hidden" id="deleteAll" onclick= "deleteAll()"><i class="fas fa-trash" id="trashRed" ></i>Delete All</button>
+          <div>
+      </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width:300px;
+}
+
+#ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-bottom: solid 2px #e5e5e5;
+}
+
+#ul > li > button{
+    background-color: white;
+   padding: 8px 15px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-radius: 3px;
+}
+
+.pintarBoton{
+    border-bottom: #0077ff solid 3px;
+}
+
+button{
+    background-color: none;
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
+   
+}
+
+li{
+    list-style: none;
+}
+
+#inputBoton {
+    display: flex;
+    margin: 15px 0px;
+}
+
+#addDetails{
+    border-color: #e5e5e5;
+    border-radius: 8px;
+    padding: 10px 15px;
+    width: 430px;
+}
+
+#boton{
+    color: white; 
+    background-color: #0095ff;
+    border: none;
+    margin: 0px 0px 0px 20px;
+    border-radius: 8px;
+    padding: 12px 33px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: #00bbff;
+}
+
+#labelLista{
+    padding-left: 5px;
+}
+
+#listaDeTareas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divBoton{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0px 20px;
+}
+
+#trash{
+    color: gray;
+    
+}
+
+#ulList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textoTachado{
+    text-decoration: line-through;
+}
+
+.inputCheckbox{
+   margin: 0px 5px 0px 0px;
+
+}
+
+.btn{
+    margin: 10px 0px;
+    background-color: rgb(247, 82, 82);
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: white
+}
+
+.hidden{
+    display: none;
+}
+
+.textHom{
+    display: none;
+}
+
+
+
+.containerAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#editor{
+    width: 100%;
+}
+
+.card-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#trashRed{
+    padding: 0px 5px 0px 0px;
+}
+
